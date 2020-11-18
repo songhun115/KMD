@@ -1,0 +1,26 @@
+:root {
+  /* Color*/
+  --color-Blue: #3199c7;
+  --color-White: #fff;
+  --color-black: #3f454d;
+
+  /* Size */
+  --size-Small: 12px;
+  --size-Normal: 18px;
+  --size-Large: 24px;
+  --size-ExtraLarge: 32px;
+}
+
+/* Normalize */
+body,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
