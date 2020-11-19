@@ -1,9 +1,9 @@
 :root {
   /* Color*/
-  --color-Blue: #3199c7;
+  --color-Blue: #00A4DB;
   --color-White: #fff;
   --color-black: #3f454d;
-
+  --color-gray: #555555;
   /* Size */
   --size-Small: 12px;
   --size-Normal: 18px;
