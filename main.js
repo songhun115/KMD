@@ -1,4 +1,4 @@
-// nav_item hover하면 menu_bg가 block
+
 $(document).ready(function(){
   $('.nav_item').hover(function(){
     $('.menu_bg').addClass('on');
