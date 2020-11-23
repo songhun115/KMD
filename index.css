@@ -1,14 +1,14 @@
 :root {
   /* Color*/
-  --color-Blue: #00a4db;
-  --color-White: #fff;
+  --color-blue: #00a4db;
+  --color-white: #fff;
   --color-black: #3f454d;
   --color-gray: #555555;
   /* Size */
-  --size-Small: 12px;
-  --size-Normal: 18px;
-  --size-Large: 24px;
-  --size-ExtraLarge: 32px;
+  --size-small: 14px;
+  --size-normal: 18px;
+  --size-large: 28px;
+  --size-extraLarge: 36px;
 }
 
 /* Normalize */
@@ -26,4 +26,25 @@ a {
 }
 body {
   background-color: var(--color-black);
+}
+.nav_bar > .nav_box > ul li > a {
+  font-size: var(--size-normal);
+}
+.nav_bar > .nav_box > ul li > a,
+.i {
+  color: white;
+}
+.nav_bar > .nav_box > .nav_list > .nav_item:hover > a,
+.nav_bar
+  > .nav_box
+  > .nav_list
+  > .nav_item
+  > .nav_sub_list
+  > .nav_sub_item:hover
+  > a {
+  color: var(--color-blue);
+}
+a {
+  font-weight: bold;
+  letter-spacing: 1px;
 }

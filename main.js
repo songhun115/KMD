@@ -1,10 +1,10 @@
 
 $(document).ready(function(){
-  $('.nav_item').hover(function(){
-    $('.menu_bg').addClass('on');
+  $('.nav_menu_item').hover(function(){
+    $('.nav_bg').addClass('on');
     $('.nav_bar').addClass('bottom_line');
   }  , function(){
-    $('.menu_bg').removeClass('on');
+    $('.nav_bg').removeClass('on');
     $('.nav_bar').removeClass('bottom_line');
   });
 
