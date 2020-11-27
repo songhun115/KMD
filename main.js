@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
   $('.nav_menu_item').hover(function(){
     $('.nav_bg').addClass('on');
@@ -23,7 +22,16 @@ $(document).ready(function(){
     $('.icon').addClass('show');
   }
   })
-
-
  
+});
+
+// mousewheelControl: true 스외이퍼 가로 스크롤링 
+var swiper = new Swiper('.swiper-container', {
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + '</span>';
+    },
+  },
 });

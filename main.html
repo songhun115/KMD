@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://swiperjs.com/package/swiper-bundle.min.css">
+    <script src="https://swiperjs.com/package/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="risponsive.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    
     <title>주KMD바이오</title>
 </head>
 <body>
@@ -27,7 +30,7 @@
                 <li class="nav_menu_item nav_item">
                     <a href="#">COMPANY</a>
                     <ul class="nav_sub_list">
-                        <li class="nav_sub_item"><a href="#">기업소개</a></li>
+                        <li class="nav_sub_item"><a src="imgs/"href="#">기업소개</a></li>
                         <li class="nav_sub_item"><a href="#">CEO 인사말</a></li>
                         <li class="nav_sub_item"><a href="#">연혁</a></li>
                         <li class="nav_sub_item"><a href="#">협력사</a></li>
@@ -102,10 +105,103 @@
          
         </div>
     </section>
-    <section class="innovation"></section>
-    <section class="targeted"></section>
-    <section class="bio"></section>
-    <section class="connect"></section>
-    <section class="footer"></section>   
+
+    <div class="slider_box1">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide innovation">
+                  <div class="slider_img innovation_box">
+                    <div class="bg_img bg1">
+                        <div class="main_text_box">
+                            <div class="text_box">
+                                <span class="intro_text">INNOVATION</span>
+                                <span class="intro_text">FOR PATIENTS</span>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide targeted">
+                <div class="slider_img innovation_box">
+                    <div class="bg_img bg2">
+                        <div class="main_text_box">
+                            <div class="text_box">
+                                <span class="intro_text">TARGETED </span>
+                                <span class="intro_text">DDS</span>
+                                <span class="last_text">표적지향약물전달체계</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide bio">
+                <div class="slider_img innovation_box">
+                    <div class="bg_img bg3">
+                        <div class="main_text_box">
+                            <div class="text_box">
+                                <span class="intro_text">KMD BIO</span>
+                                <span class="intro_text">R&D CENTER</span>
+                                <span class="last_text">SMALL PROTEIN 최적화 기술역량</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide connect">
+                <div class="slider_img innovation_box">
+                    <div class="bg_img bg4">
+                        <div class="main_text_box">
+                            <div class="text_box">
+                                <span class="intro_text">GLOBAL CONNECT</span>
+                                <span class="intro_text">&DEVELOPMENT</span>
+                                <span class="last_text">글로벌 바이오벤처 기업으로 성장</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide footer">
+                <div class="footer_bg">
+                    <div class="footer_box">
+                        <h3 class="footer_intro">NEWS & NOTICE</h3>
+                        <ul class="footer_intro_list">
+                            <li class="footer_intro_item">
+                                <a href="#">
+                                <span class="notice news">NEWS</span>
+                                <div class="notice">[인터뷰] 김명훈 KMD바이오 대표 "의사가 원하는 신약 만들겠다"</div>
+                                <div class="notice sb_oj">BMS 엘러간 한미약품 셀트리온 거친 '제약 의사' 김명훈 대표 창립폭탄 싣는 항암 핵심기술</div>
+                                    <div class="notice time">2020-11-27</div>
+                                <span class="notice"> <i class="foot_icon fas fa-arrow-right"></i></span>
+                                </a>
+                            </li>
+                            <li class="footer_intro_item">
+                                <a href="#">
+                                    <span class="notice news">NEWS</span>
+                                    <div class="notice">[인터뷰] 김명훈 KMD바이오 대표 "의사가 원하는 신약 만들겠다"</div>
+                                    <div class="notice sb_oj">BMS 엘러간 한미약품 셀트리온 거친 '제약 의사' 김명훈 대표 창립폭탄 싣는 항암 핵심기술</div>
+                                    <div class="notice time">2020-11-27</div>
+                                    <span class="notice"> <i class="foot_icon fas fa-arrow-right"></i></span>
+                                    </a>
+                            </li>
+                            <li class="footer_intro_item">
+                                <a href="#">
+                                    <span class="notice news">NEWS</span>
+                                    <div class="notice">[인터뷰] 김명훈 KMD바이오 대표 "의사가 원하는 신약 만들겠다"</div>
+                                    <div class="notice sb_oj">BMS 엘러간 한미약품 셀트리온 거친 '제약 의사' 김명훈 대표 창립폭탄 싣는 항암 핵심기술</div>
+                                    <div class="notice time">2020-11-27</div>
+                                    <span class="notice"> <i class="foot_icon fas fa-arrow-right"></i></span>
+                                    </a>
+                            </li>
+                        </ul>
+                        <div class="footer_foot"></div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+        </div>
+    </div>
 </body>
+<script src="main.js"></script>
 </html>
