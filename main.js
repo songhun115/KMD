@@ -25,8 +25,12 @@ $(document).ready(function(){
  
 });
 
-// mousewheelControl: true 스외이퍼 가로 스크롤링 
+
 var swiper = new Swiper('.swiper-container', {
+  
+  mousewheel: {
+    invert: true,
+  },  
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -34,4 +38,5 @@ var swiper = new Swiper('.swiper-container', {
       return '<span class="' + className + '">' + '</span>';
     },
   },
+  
 });

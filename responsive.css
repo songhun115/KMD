@@ -10,6 +10,12 @@
   }
 }
 @media (max-width: 1280px) {
+  .swiper-pagination {
+    width: 130px;
+    bottom: 65px;
+    left: 40px;
+  }
+
   .nav_bar > .nav_box > .nav_list > .nav_menu_item,
   .i {
     display: none;
@@ -86,6 +92,12 @@
 }
 
 @media (max-width: 770px) {
+  .swiper-pagination {
+    width: 130px;
+    bottom: 40px;
+    left: 13px;
+  }
+
   .img_logo > .logo > img {
     width: 60%;
     transition: 0.3s;
@@ -120,7 +132,7 @@
   }
   .main_text_box {
     margin-bottom: 120px;
-    padding: 0 25px 0 25px;
+    padding: 0 20px 0 20px;
   }
   .main_text_box > .text_box > .last_text {
     font-size: 14px;
