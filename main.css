@@ -123,3 +123,47 @@
 .time {
   font-size: 14px;
 }
+.footer_foot_wrap_item:first-child {
+  border-right: 1px solid #999999;
+  text-align: end;
+}
+.footer_foot_wrap_item_text {
+  text-align: left;
+  color: #999999;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.footer_foot_wrap {
+  display: flex;
+  padding: 0 140px 70px 140px;
+  box-sizing: border-box;
+}
+.footer_foot {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+.footer_foot_wrap_item {
+  justify-content: flex-end;
+}
+.footer_foot_wrap_item:nth-child(2) {
+  padding: 0 30px;
+}
+.footer_foot_wrap_item {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.footer_foot_wrap_item:last-child {
+  justify-content: flex-end;
+
+  width: 100%;
+  align-items: flex-end;
+}
+
+.footer_foot_wrap_item:first-child > .footer_foot_wrap_item_text:last-child {
+  line-height: 3;
+}

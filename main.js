@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 
 var swiper = new Swiper('.swiper-container', {
-  
+  speed	: 1000,
   mousewheel: {
     invert: true,
   },  

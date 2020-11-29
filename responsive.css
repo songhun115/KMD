@@ -8,8 +8,16 @@
   .footer_box {
     padding: 0 50px;
   }
+  .footer_foot_wrap {
+    display: flex;
+    padding: 0 50px 50px 50px;
+    box-sizing: border-box;
+  }
 }
 @media (max-width: 1280px) {
+  .footer_foot {
+    display: none;
+  }
   .swiper-pagination {
     width: 130px;
     bottom: 65px;
